@@ -42,6 +42,5 @@ exports.errorHandler = error => {
         message = error.errorors[errorName].message;
     }
   }
-
   return message;
 };
